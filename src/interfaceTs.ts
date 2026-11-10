@@ -84,4 +84,4 @@ const cfg: Config = {
     version: 1
 }
 
-cfg.appName = ""
+// cfg.appName = "cant add name as its read only"
