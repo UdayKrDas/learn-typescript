@@ -83,3 +83,5 @@ const cfg: Config = {
     appName: "Draxxy",
     version: 1
 }
+
+cfg.appName = ""
