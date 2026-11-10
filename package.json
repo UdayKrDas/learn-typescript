@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/UdayKrDas/learn-typescript/issues"
   },
-  "homepage": "https://github.com/UdayKrDas/learn-typescript#readme"
+  "homepage": "https://github.com/UdayKrDas/learn-typescript#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
 }
