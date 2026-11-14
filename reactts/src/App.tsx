@@ -5,6 +5,7 @@ import { Counter } from './components/Counter.tsx'
 import type { Chai } from './types.ts'
 import { ChaiList } from './components/ChaiList.tsx'
 import { OrderForm } from './components/OrderForm.tsx'
+import { Card } from './components/Card.tsx'
 
 
 const menu: Chai[] = [
@@ -34,6 +35,13 @@ const App = () => {
           );
           
         }}/>
+
+        <div>
+          <Card 
+          title='Chai aur Typescript'
+          footer={<button>The End</button>}
+          />
+        </div>
       </div>
     </div>
   )
